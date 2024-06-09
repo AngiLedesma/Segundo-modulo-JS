@@ -8,6 +8,6 @@ menos.addEventListener('click', function () {
 mas.addEventListener('click', function () {
     parrafo.style.fontSize = '30px';
 })
-
+//pq no se usa la e? quien actuaria de e?
 //font-size en css 
 //fontSize
