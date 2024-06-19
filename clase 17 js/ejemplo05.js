@@ -3,10 +3,8 @@ const edad = 33;
 
 console.log (`Hola! ${nombre} asi que vos tenes ${edad}`);
 
-
 const edad1 = 18;
 const edad2 = 32;
-
 const edad3 = parseInt(prompt('Ingrese una edad' , ''))
 
 const menasje1 = `La cuota para personas de ${edad} es de ${edad >= 21 ? 5000 : 3500}`

@@ -14,6 +14,7 @@ const hrs = today.getHours();
 
 console.log(hrs)
 
+
 if (hrs < 12) {
     document.write('Buenos dias' + nombre + '!!')
     console.log(`Buenos dias ${nombre} !!`)

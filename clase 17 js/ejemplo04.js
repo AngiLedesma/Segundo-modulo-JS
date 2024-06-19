@@ -7,29 +7,29 @@ const frutasordenadas = frutas.sort();
 
 console.log(frutasordenadas); //a a la z 
 
-const frutasordenadasreves = frutas.sort().reverse();
+const frutasordenadasreves = frutas.sort().reverse(); //sort reverse () acomoda el array alafab o numericam De z a la a 
 
 console.log(frutasordenadasreves)
-//sort acomoda el array alafab o numericam De z a la a 
-
-
-const numeros = [95, 39, 82, 17, 56]
-
-console.log (numeros)
-
-console.log(numeros.sort())
-
-const numerosordenadosreves = numeros.sort().reverse();
-
-console.log (numerosordenadosreves)
 
 
 
+const numeros = [82, 3, 39, 17, 56]
 
-//const numerosordenados = numeros.sort (function(a,b){
- //   return a - b
-//
-//})
+//console.log (numeros)
+
+//console.log(numeros.sort())
+
+
+const numerosordenados = numeros.sort(function (a, b) {
+    return a - b
+})
+
+console.log(numerosordenados)
+
+
+
+
+
 
 //console.log(numerosordenados); //de menos a mayor
 

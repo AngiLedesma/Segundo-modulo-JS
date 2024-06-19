@@ -1,4 +1,4 @@
-let a, b, c, resto;
+let a, b, resto;
 
 [a, b] = [10, 20]
 
@@ -9,10 +9,10 @@ console.log(b) //= 20
 
 console.log(resto)
 
-const vocales = ['a', 'e', 'i'];
+const vocales = ['a','e','i'];
 
-console.log (vocales) // q va a imprimir ? a e i 
+console.log(vocales) // q va a imprimir ? a e i s
 
 const vocalesCompletas = [...vocales, 'o', 'u'];
 
-console.log (vocalesCompletas); // va a imprirmir a e i o u 
+console.log(vocalesCompletas); // va a imprirmir a e i o u 
