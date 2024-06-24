@@ -1,5 +1,5 @@
 const nombre = prompt('Ingrese su nombre', '');
-const edad = (parseInt('Ingrese su edad', ''));
+const edad = parseInt(prompt('Ingrese su edad', ''));
 
 if (Number.isNaN(edad)){
     console.log('Debes ingresar un nùmero')
